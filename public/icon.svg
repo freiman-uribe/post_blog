@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <linearGradient id="paperGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGradient)"/>
+
+  <!-- Hoja -->
+  <rect x="16" y="12" width="32" height="40" rx="6" fill="url(#paperGradient)"/>
+
+  <!-- Badge -->
+  <circle cx="42" cy="18" r="4" fill="#22c55e"/>
+
+  <!-- Líneas del post -->
+  <rect x="20" y="22" width="24" height="3" rx="1.5" fill="#94a3b8"/>
+  <rect x="20" y="28" width="20" height="3" rx="1.5" fill="#cbd5f5"/>
+  <rect x="20" y="34" width="24" height="3" rx="1.5" fill="#cbd5f5"/>
+  <rect x="20" y="40" width="14" height="3" rx="1.5" fill="#cbd5f5"/>
+</svg>
